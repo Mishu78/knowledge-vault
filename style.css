@@ -1,0 +1,265 @@
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    overflow-x: hidden;
+}
+
+a:hover{
+    color:red;
+}
+button:hover{
+    background-color: red;
+}
+
+/*header section*/
+.navbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    gap:32px;
+}
+ul{
+    
+    text-decoration: none;
+}
+li a{
+    color:black;
+    font-size: 20px;
+text-decoration: none;
+
+}
+
+ ul li{
+    list-style: none;
+    
+}
+
+.primary-btn{
+    padding:12.5px;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.primary-color{
+   color: #30B868;
+}
+
+.header-title{
+    font-size: 60px;
+    font-weight:700;
+}
+.header-para{
+    font-size:18px;
+    font-weight:300;
+    padding-bottom:30px;
+}
+
+.header-btn-two{
+    color: white;
+   padding:12.5px; 
+    border-color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left:15px;
+}
+
+.header-btn{
+    font-weight: 500;
+    border-style: none;
+    padding:8px 12px;
+    border-radius: 50px;
+    
+}
+
+.hero-part{
+    background-image: url('./assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    padding:150px;
+}
+/*notes section*/
+.notes-img{
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 40px;
+    padding:20px;
+}
+.notes-section{
+background-color: rgb(248, 245, 245);
+align-items: center;
+text-align: center;
+
+}
+.notes-div{
+    padding:30px;
+    background-color: white;
+    margin-right: 24px;
+}
+.notes-section-title{
+    font-size:40px;
+}
+.notes-section-para{
+    color:rgba(98, 115, 130, 1);
+    margin-bottom:25px;
+}
+.notes-all-div{
+    display: flex;
+    justify-content: center;
+    padding-bottom:30px;
+}
+.notes-section-div{
+    padding-top:20px;
+}
+
+.solution-section{
+    margin-top:120px;
+    display: flex;
+    justify-content: center;
+}
+.solution-div{
+    margin-left:40px;
+    align-items: center;
+    align-self: center;
+}
+.solution-title{
+    font-size: 48px;
+    font-weight:700;
+    font-style:bold;
+}
+
+.solution-para{
+    font-size:16px;
+    color: rgba(98, 115, 130, 1);
+}
+.solution-icon{
+    color:white;
+    background-color: #30B868;
+    padding:5px;
+    border:60px;
+    border-radius: 100px;
+}
+.solution-head{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.ready-div{
+    padding:80px 20px;
+    align-items: center;
+    text-align: center;
+}
+.ready-title{
+    font-style:bold;
+    font-size:34px;
+    font-weight:700;
+}
+.ready-para{
+    color:  rgba(98, 115, 130, 1);
+    font-size: 12px;
+}
+.ready-section{
+    background-position: center;
+    background-color: rgb(235, 233, 233);
+    align-items: center;
+    margin: 120px;
+}
+.ready-foot{
+    color:  rgba(98, 115, 130, 1);
+    font-size: 12px;
+}
+.footer{
+   
+    justify-content: space-around;
+    display: flex;
+    padding-bottom: 120px;
+}
+.footer-section{
+ background-color: #001931;
+ padding:120px;
+}
+.footer-div{
+ justify-self: center;
+}
+
+.footer-color{
+    color:white;
+}
+
+.footer-icon{
+    background-color: white;
+    border:30;
+    margin-right:10px;
+
+}
+
+
+
+@media screen and (max-width:780px) {
+    .links ul{
+        display:block;
+    }
+    li a{
+        font-size: 15px;
+    }
+    .header-title{
+        font-size:30px;
+    }
+    .header-para{
+        font-size:12px;
+    }
+    .header-btn-two{
+        margin-top: 10px;
+    }
+    .notes-all-div{
+        display: block;
+}
+.notes-div{
+    margin-bottom: 10px;
+}
+.notes-section-title{
+    font-size:20px;
+}
+.notes-section-div {
+    margin-bottom: 30px;
+}
+.solution-section{
+    display: block;
+}
+.solution-img img{
+   
+   max-width: 100%;
+   height:auto;
+}
+.solution-title{
+    font-size:26px;
+}
+
+.ready-title{
+    font-size:20px;
+}
+.ready-para{
+    font-size:12px;
+}
+.ready-foot{
+    font-size:12px;
+}
+.footer{
+    display: block;
+    justify-self: center;
+}
+.footer-icon-div{
+    justify-self: center;
+}
+}
